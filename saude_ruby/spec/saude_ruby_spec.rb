@@ -1,7 +1,7 @@
 # spec/saude_ruby_spec.rb
 RSpec.describe SaudeRuby do
   before(:each) do
-    @aluno = SaudeRuby::Aluno.new(peso: 70, altura: 1.75)
+    @aluno = SaudeRuby::Aluno.new(peso: 117, altura: 1.75)
   end
 
   it "calcula o IMC corretamente" do
