@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "saude-python"
+version = "0.1.0"
+description = ""
+authors = ["Marco Castro <marcodotcastro@gmail.com>"]
+readme = "README.md"
+packages = [{include = "saude_python", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
