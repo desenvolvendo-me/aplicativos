@@ -1,0 +1,15 @@
+{
+    "name": "usuario/saude-php",
+    "description": "Pacote PHP para cálculo de IMC",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SaudePhp\\": "src/SaudePhp"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
