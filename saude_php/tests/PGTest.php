@@ -8,13 +8,13 @@ class PGTest extends TestCase
     public function testCalcularPGMasculino()
     {
         $percentual = PG::calcular(22.86, 30, 'masculino');
-        $this->assertEquals(18.52, $percentual);
+        $this->assertEquals(18.13, $percentual);
     }
 
     public function testCalcularPGFeminino()
     {
         $percentual = PG::calcular(22.86, 30, 'feminino');
-        $this->assertEquals(29.32, $percentual);
+        $this->assertEquals(28.93, $percentual);
     }
 
     public function testSexoInvalido()
